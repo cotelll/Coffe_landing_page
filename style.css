@@ -1,3 +1,557 @@
-﻿/*Мои стили*/
 
-фісфісі
+@font-face {
+    font-family: "MrsEavesItalic_Italic";
+    /* Имя шрифта */
+    src: url(../fonts/MrsEavesItalic_Italic.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "SegoeWPN";
+    /* Имя шрифта */
+    src: url(../fonts/SegoeWPN.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Univers CE 45 Light";
+    /* Имя шрифта */
+    src: url(../fonts/Univers CE 45 Light.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "SegoeWPN Light";
+    /* Имя шрифта */
+    src: url(../fonts/SegoeWPN Light.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "ArialRegular";
+    /* Имя шрифта */
+    src: url(../fonts/ArialRegular.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+html {
+    font-size: 1vw;
+}
+
+
+.header {
+    width: 100%;
+    height: 30.4emrem;
+    background-image: url(../img/bg_header.png);
+
+}
+
+.up_header {
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    color: #d0d5d7;
+    font-size: 7.3rem;
+    padding-left: 17rem;
+    padding-top: 2.8rem;
+    font-family: "MrsEavesItalic_Italic";
+    width: 15.5rem;
+    height: 7.0rem;
+    
+}
+
+.up_menu {
+    display: flex;
+    width: 30.8rem;
+    height: 3.4rem;
+    padding-left: 15rem;
+    padding-top: 4.2rem;
+    font-size: 1.5rem;
+    font-family: "SegoeWPN";
+    
+    
+    
+    
+}
+
+.up_menu > ul {
+    display: flex;
+
+}
+
+.up_menu > ul > li {
+    padding-right: 4.7rem;
+    list-style-type: none;
+    
+
+}
+
+.up_menu > ul > li > a {
+    text-decoration: none;
+    color: #a2b4b7;
+    
+}
+
+.bottom_header {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.coffeboard {
+    padding-left: 19.5rem;
+    display: flex;
+    padding-top: 4.375rem;
+
+}
+
+.coffeblock {
+    width: 21.5rem;
+    height: 18.1rem;
+
+}
+
+.coffeimage {
+    width: 100%;
+    height: 0 auto;
+}
+
+.coffetext {
+    padding-left: 6rem;
+    padding-top: 2rem;
+}
+
+.coffetext .Intorduction {
+    font-size: 4rem;
+    font-family: "SegoeWPN";
+    font-weight: bold;
+    color: #ffffff
+}
+
+.coffetext .Something {
+    font-size: 2.75rem;
+    font-family: "SegoeWPN";
+    color: #ffffff
+}
+
+.coffetext .Try {
+    font-size: 1.375rem;
+    font-family: "SegoeWPN";
+    background-color: #3ea775;
+    width: 8.8125rem;
+    height: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.3rem solid #343d37;
+    position: relative;
+
+}
+
+
+
+.block1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem
+}
+
+.block1 > div {
+    width: 19rem;
+    height: 16rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.block1 > div > span {
+    padding-top: 1.4rem;
+    font-family: "SegoeWPN";
+    font-size: 1.6rem;
+    color: #797878
+    
+}
+
+.block1 > div > #website {
+    font-size: 1.37rem;
+}
+
+.block1 > div > img {
+    width: 8.4rem;
+    height: 9.6rem;
+}
+
+.block1 .icon1 {
+    border-bottom: 0.2rem solid #dedede
+}
+
+.block1 .icon2 {
+    border-left: 0.2rem solid #dedede;
+    border-top: 0.2rem solid #dedede;
+    border-right: 0.2rem solid #dedede;
+    font-weight: bold
+    
+    
+}
+
+.block1 .icon3 {
+     border-bottom: 0.2rem solid #dedede;
+}
+
+.block1 .icon4 {
+    border-bottom: 0.2rem solid #dedede;
+}
+
+.block2ipad {
+    display: flex;
+    width: 100%;
+    justify-content: center
+}
+.block2border {
+    width: 76rem;
+    display: flex;
+    justify-content: center;
+    border-left: 0.2rem solid #dedede;
+    border-right: 0.2rem solid #dedede;
+}
+.ipadimage {
+    width: 53.5rem;
+    height: 29.2rem;
+    display: flex;
+    padding-top: 2.6rem
+    
+}
+
+.block3text {
+    width: 100%;
+    display: flex;
+    justify-content: center
+        
+}
+
+.block3border {
+    width: 76rem;
+    height: 23.6rem;
+    display: flex;
+    justify-content: center;
+    border-left: 0.2rem solid #dedede;
+    border-bottom: 0.2rem solid #dedede;
+    border-right: 0.2rem solid #dedede;
+    
+    
+}
+.text {
+    width: 56rem;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+.zagolovok {
+    font-size: 2.25rem;
+    font-family: "SegoeWPN";
+    color: #4f4f4f;
+    
+}
+
+.osnova {
+    font-family: "Univers CE 45 Light";
+    font-size: 0.87rem;
+    color : #818181;
+    line-height: 2;
+}
+
+
+.block4webrowser {
+    display: flex;
+    padding-left: 11rem;
+    padding-top: 1.7rem;
+    
+    
+    
+}
+
+.block4webrowser > img {
+    width: 28.625rem;
+    height: 19.81rem; 
+}
+
+.Whychooseus {
+    padding-left: 4.1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Whychooseus .Whyzagolovok {
+    font-size: 2.1rem;
+    font-family: "SegoeWPN";
+}
+
+.Whychooseus .spisok {
+    font-size: 1.1rem;
+    font-family: "Univers CE 45 Light";
+    list-style: none;  
+}
+
+.Whychooseus .spisok > div > img {
+    width: 1.1rem;
+    height: 1.1rem;
+    padding-right: 0.93rem;
+    
+}
+
+.Whychooseus .spisok > div {
+    padding-top: 1.1rem
+}
+    
+    
+    
+.block5vvod {
+    display: flex;
+    width: 100%;
+    border-top: 0.2rem solid #dedede; 
+    padding-top: 1.43rem;
+    padding-bottom: 2.1875rem;
+}
+
+
+
+.login {
+    width: 36rem;
+    height: 6.75rem;
+    background-color: #01d4f3;
+    border-radius: 0.5rem;
+}
+
+.loginboard {
+    padding-left: 11rem; 
+}
+
+.login .Member {
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    font-family: "SegoeWPN";
+    color: white;
+    font-size: 1.7rem;
+    
+}
+.logmein {
+    font-size: 1.3rem;
+    width: 7rem;
+    height: 2.1rem;
+    background-color: #444444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "SegoeWPN";
+    color: white;
+    
+}
+.logmeinboard {
+    padding-left: 0.8rem;
+    
+}
+
+.subscribe {
+    width: 36rem;
+    height: 6.75rem;
+    background-color: #e67624;
+    border-radius: 0.5rem; 
+}
+
+.subscribeboard {
+    padding-left: 4rem 
+}
+
+.Subscribeto {
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    font-family: "SegoeWPN";
+    color: white;
+    font-size: 1.7rem;
+}
+
+.formboard {
+    padding-left: 1.5rem;
+    padding-top: 0.8rem;
+    display: flex;  
+}
+
+.subscribebutton {
+    font-size: 1.3rem;
+    font-family: "SegoeWPN";
+    color: white;
+    width: 7rem;
+    height: 2.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.input {
+    
+    width: 12.2rem;
+    height: 1.9rem;
+    font-size: 1.1rem;
+    font-family: "SegoeWPN";
+    background-color: #e8e8e8;
+}
+
+.input2{
+    
+    width: 16.6rem;
+    height: 1.5rem;
+    font-size: 1.1rem;
+    font-family: "SegoeWPN";
+    background-color: #e8e8e8;
+    
+}
+
+.footer {
+    width: 100%;
+    height: 16.25rem;
+    background-color: #252c29;
+/*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+*/
+}
+
+.footercentrovka {
+    display: flex;
+    padding-left: 13.7rem;
+    padding-top: 2.3rem;
+}
+
+
+
+.footercentrovka > div {
+    padding-right: 7rem;
+    
+}
+/*} Два первых блока в футере*/
+
+.aboutus {
+    width: 7.9375rem;
+    height: 10.875rem;
+    
+    
+/*
+    height: 174px;
+    width: 111px;
+*/
+}
+
+.aboutus2 {
+    width: 7.9375rem;
+    height: 10.875rem;
+}
+.listinfooter{
+    list-style: none;
+    font-size: 1rem;
+    padding-bottom: 30px;
+}
+
+.listinfooter > .zaglav {
+    font-size: 1.6rem;
+    padding-top: none;
+    color: #d8d8d8;
+}
+
+.listinfooter > li  {
+    padding-top: 0.4rem;
+    font-family: "ArialRegular";
+}
+
+.listinfooter > li > a {
+    text-decoration: none;
+    color: #acacaa;
+}
+
+
+.listinfooter > .zaglavotstup {
+    padding-top: 0.7rem; }
+    
+/*} Два первых блока в футере*/
+
+    
+.footercentrovka > .tesio {   
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tesio > .zaglav {
+    padding-top: 0.4rem;
+    font-size: 1.6rem;
+    color: #d8d8d8;
+    font-family: "ArialRegular"
+}
+
+.tesio .zaglavotstup {
+    padding-top: 1.25rem;
+    font-size: 1rem;
+    color: #acacaa;
+    font-family: "ArialRegular"
+}
+
+.tesio .Lorem  {
+    font-size: 1rem;
+    color: #acacaa;
+    padding-top: 0.6rem;
+    font-family: "ArialRegular"
+} 
+
+.tesio .Owner  {
+    font-size: 1rem;
+    color: #acacaa;
+    padding-top: 0.6rem;
+    font-family: "ArialRegular"
+} 
+    
+.footerlogo {
+    color: #acacaa;;
+    font-size: 7.3rem;
+    font-family: "MrsEavesItalic_Italic";
+    width: 15.5rem;
+    height: 7.0rem;
+    display: flex;
+    flex-direction: column
+    
+}
+#author {
+    color: #acacaa;
+    font-size: 1.01rem;
+    font-family: "SegoeWPN"
+}
+
+
+
+
+
+
+
+
+
+
