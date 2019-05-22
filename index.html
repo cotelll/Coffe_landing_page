@@ -6,6 +6,8 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/SegoeUI/stylesheet.css">
+    
+
 </head>
 
 <body>
@@ -52,22 +54,40 @@
 
     <div class="block1">
 
-        <div class="icon1"> <img src="img/1icon.png"> <span>Responsive<br>Websites</span></div>
+        <div onclick="changeStyle1()" id="icon1"> <img src="img/1icon.png"> <span>Responsive<br>Websites</span></div>
+        
+        <div id="icon1_click"> <img src="img/1icon.png"> <span>Responsive<br>Websites</span></div>
 
 
-        <div class="icon2"> <img src="img/2icon.png"> <span>e Commerce<br><span id="website">Websites</span></span> </div>
+        <div onclick="changeStyle2()" id="icon2"> <img src="img/2icon.png"> <span>e Commerce<br><span id="website">Websites</span></span> </div>
+        
+        <div  id="icon2_click"> <img src="img/2icon.png"> <span>e Commerce<br><span id="website">Websites</span></span> </div>
 
 
-        <div class="icon3"> <img src="img/3icon.png"> <span>Daily blog<br>Websites</span></div>
+        <div onclick="changeStyle3()" id="icon3"> <img src="img/3icon.png"> <span>Daily blog<br>Websites</span></div>
+        
+        <div id="icon3_click"> <img src="img/3icon.png"> <span>Daily blog<br>Websites</span></div>
 
 
-        <div class="icon4"> <img src="img/4icon.png">
+        <div onclick="changeStyle4()" id="icon4"> <img src="img/4icon.png">
+            <span>Search based<br>Websites</span> </div>
+            
+        <div id="icon4_click"> <img src="img/4icon.png">
             <span>Search based<br>Websites</span> </div>
 
     </div>
 
     <div class="block2ipad">
-        <div class="block2border"> <img class="ipadimage" src="img/ipad.png"></div>
+        <div class="block2border"> 
+        
+        <img id="ipadimage" src="img/ipad.png">
+        
+        <img id="macbookimage" src="img/macbook.png">
+        
+        <img id="ipadnewimage" src="img/ipadnew.png">
+        
+        <img id="laptopimage" src="img/laptop.png">
+        </div>
     </div>
 
     <div class="block3text">
@@ -149,7 +169,10 @@
            <div class="formboard ">
            <input class="input2" type="text" name="email" value="email adress" >
            
+           
+            <div class="subscribebuttonboard">
            <div class="subscribebutton"> Subscribe</div>
+           </div>
            </div>
            
        </div>
@@ -214,5 +237,6 @@
 
 
 </body>
-<script src="java.js"></script>
+<script src="java/java.js"></script>
+
 </html>
