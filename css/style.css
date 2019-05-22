@@ -198,25 +198,58 @@ html {
     height: 9.6rem;
 }
 
-.block1 .icon1 {
+#icon1 {
     border-bottom: 0.2rem solid #dedede
 }
 
-.block1 .icon2 {
+#icon1_click {
+    display: none;
+    border-left: 0.2rem solid #dedede;
+    border-top: 0.2rem solid #dedede;
+    border-right: 0.2rem solid #dedede;
+    font-weight: bold
+}
+
+
+#icon2 {
+    display: none;
+    border-bottom: 0.2rem solid #dedede
+    
+    
+}
+
+#icon2_click {
+    border-left: 0.2rem solid #dedede;
+    border-top: 0.2rem solid #dedede;
+    border-right: 0.2rem solid #dedede;
+    font-weight: bold; 
+    
+}
+
+#icon3 {
+     border-bottom: 0.2rem solid #dedede;
+}
+
+#icon3_click {
+    display: none;
     border-left: 0.2rem solid #dedede;
     border-top: 0.2rem solid #dedede;
     border-right: 0.2rem solid #dedede;
     font-weight: bold
     
-    
 }
 
-.block1 .icon3 {
-     border-bottom: 0.2rem solid #dedede;
-}
-
-.block1 .icon4 {
+#icon4 {
     border-bottom: 0.2rem solid #dedede;
+}
+
+#icon4_click {
+    display: none;
+    border-left: 0.2rem solid #dedede;
+    border-top: 0.2rem solid #dedede;
+    border-right: 0.2rem solid #dedede;
+    font-weight: bold
+    
 }
 
 .block2ipad {
@@ -231,7 +264,7 @@ html {
     border-left: 0.2rem solid #dedede;
     border-right: 0.2rem solid #dedede;
 }
-.ipadimage {
+#ipadimage {
     width: 53.5rem;
     height: 29.2rem;
     display: flex;
@@ -239,6 +272,29 @@ html {
     
 }
 
+#macbookimage {
+     width: 53.5rem;
+    height: 29.2rem;
+    display: none;
+    padding-top: 2.6rem
+    
+}
+
+#ipadnewimage {
+    width: 53.5rem;
+    height: 29.2rem;
+    display: none;
+    padding-top: 2.6rem
+    
+}
+
+#laptopimage {
+    width: 53.5rem;
+    height: 29.2rem;
+    display: none;
+    padding-top: 2.6rem
+    
+}
 .block3text {
     width: 100%;
     display: flex;
@@ -338,7 +394,7 @@ html {
 .login {
     width: 36rem;
     height: 6.75rem;
-    background-color: #01d4f3;
+    background-color: #e67624; 
     border-radius: 0.5rem;
 }
 
@@ -374,7 +430,7 @@ html {
 .subscribe {
     width: 36rem;
     height: 6.75rem;
-    background-color: #e67624;
+    background-color: #01d4f3;
     border-radius: 0.5rem; 
 }
 
@@ -396,15 +452,20 @@ html {
     display: flex;  
 }
 
+.subscribebuttonboard {
+    padding-left: 1.25rem;
+}
 .subscribebutton {
     font-size: 1.3rem;
     font-family: "SegoeWPN";
     color: white;
     width: 7rem;
-    height: 2.1rem;
+    height: 1.72rem;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    background-color: #029bb1;
+        
     
 }
 
@@ -518,14 +579,14 @@ html {
 
 .tesio .Lorem  {
     font-size: 1rem;
-    color: #acacaa;
+    color: #dde0e0;
     padding-top: 0.6rem;
     font-family: "ArialRegular"
 } 
 
 .tesio .Owner  {
     font-size: 1rem;
-    color: #acacaa;
+    color: #dde0e0;
     padding-top: 0.6rem;
     font-family: "ArialRegular"
 } 
